@@ -172,7 +172,7 @@ while x==True:
                         print("Debe escoger un número entre 1 y ",str(totalDeportes))    
 
         else:
-            print("Debe escoger un número entre 1 y  SEGUNDO IF",str(totalDeportes))    
+            print("Debe escoger un número entre 1 y ",str(totalDeportes))    
     else:
         print("Debe escoger un número entre 1 y PRIMER IF",str(totalDeportes)) 
         
