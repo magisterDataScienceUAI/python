@@ -8,7 +8,6 @@ import statistics as sta
 
 #df = pd.read_csv('/Users/king/Documents/python/Archive/athlete_events.csv')
 fields = ['Height', 'Year', "Sport"]
-
 df = pd.read_csv('/Users/king/Documents/python/Archive/athlete_events.csv', skipinitialspace=True, usecols=fields)
 
 def preprocesamientoDeDatos(df):
