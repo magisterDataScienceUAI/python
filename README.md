@@ -11,7 +11,7 @@ Para empezar, lo primero será descargar VStudio Code o también puede usar :
 
 Este es el curso de python, acá se encontrará los trabajos del mismo. 
 
-* [Control 2: ](https://code.visualstudio.com/docs/languages/python)
+* [Control 2: ](https://github.com/magisterDataScienceUAI/python/tree/main/control2)
 
 ## Copyright and License
 
