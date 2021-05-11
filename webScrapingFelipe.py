@@ -1,3 +1,13 @@
+#Link de ayuda
+# Los link de ayuda fueron los siguientes:
+
+# https://pypi.org/project/beautifulsoup4/
+# https://brightdata.com/blog/how-tos/how-to-use-beautiful-soup-for-web-scraping-with-python?cam=aw_blog_Beautiful-Soup-web-scraping_web%20scraping%20python_520132069176&utm_term=web%20scraping%20python&utm_campaign=blog&utm_source=adwords&utm_medium=ppc&utm_content=Beautiful-Soup-web-scraping&hsa_acc=1046276282&hsa_cam=13023430270&hsa_grp=124902841831&hsa_ad=520132069176&hsa_src=g&hsa_tgt=kwd-6318385184&hsa_kw=web%20scraping%20python&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjws-OEBhCkARIsAPhOkIZd7vbmBkDuQSRsEJgHBE5BGtE4ZEzxHbynDkz_gvdOH8pbS-D2T5MaAjrQEALw_wcB
+# https://www.it-swarm-es.com/es/python/extrayendo-el-contenido-de-la-tabla-de-html-con-python-y-beautifulsoup/1072899834/
+# https://github.com/MinCiencia/Datos-COVID19/blob/9907f23b69a972f2cb9f217b39e52112ff68004f/output/producto3/CasosTotalesCumulativo.csv
+
+
+
 import requests
 import pandas as pd
 import numpy as np
