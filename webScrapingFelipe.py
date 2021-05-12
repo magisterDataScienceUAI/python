@@ -19,11 +19,11 @@ from bs4 import BeautifulSoup
 soup = BeautifulSoup(r.content,'html5lib')
 
 #<tr id="LC2" class="js-file-line">
-table_arica=soup.find('tr',attrs = {'id':'LC2'})
+table_santiago=soup.find('tr',attrs = {'id':'LC8'})
 
 #<tr id="LC1" class="js-file-line">
 table_fecha=soup.find('tr', attrs={'id':'LC1'})
-#print(table_arica.prettify())
+#print(table_santiago.prettify())
 
 #Recorriendo la tabla de fechas:
 
@@ -34,27 +34,30 @@ for td in table_fecha.find_all('th'):
 # print('Fechas')
 # print(fechas)
 
-arica=[]
-for tr in table_arica.find_all('td'):
-    arica.append(tr.text)
+santiago=[]
+for tr in table_santiago.find_all('td'):
+    santiago.append(tr.text)
 
-print(str(len(arica)))
+print(str(len(santiago)))
 print(str(len(fechas)))
-# print(arica[2])
+# print(santiago[2])
 # print(fechas[1])
 
 #Eliminando elementos innecesarios
 
-arica.pop(0)
-arica.pop(1)
+# santiago.pop(0)
+santiago.pop(1)
+santiago.pop(0)
 fechas.pop(0)
 
 print('Nuevos totales')
-print(str(len(arica)))
+print(str(len(santiago)))
 print(str(len(fechas)))
 
-#print(str(arica))
+#print(str(santiago))
 
 #Creando el dataFrame con los dos vectores
-df = pd.DataFrame(list(zip(fechas,arica)), columns = ['Fecha','Total_Casos'])
-print(df)
+df = pd.DataFrame(list(zip(fechas,santiago)), columns = ['Fecha','Total_Casos'])
+print(santiago)
+print('-------------********---------')
+print(fechas)
